@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İki Sayının Toplamı</title>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Google Fonts Open Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Başlık -->
+        <h3 class="heading">İki Sayının Toplamı</h3>
+
+        <!-- 1. Sayı Girişi -->
+        <div class="input-area">
+            <label for="n1">1. Sayıyı Giriniz</label>
+            <input type="number" id="n1">
+        </div>
+
+        <!-- 2. Sayı Girişi -->
+        <div class="input-area">
+            <label for="n2">2. Sayıyı Giriniz</label>
+            <input type="number" id="n2">
+        </div>
+
+        <!-- Butonlar -->
+        <div class="button-container">
+            <!-- Toplama Butonu -->
+            <button id="sum-btn">Topla</button>
+            <!-- Çıkarma Butonu -->
+            <button id="sub-btn">Çıkarma</button>
+            <!-- Çarpma Butonu -->
+            <button id="mul-btn">Çarpma</button>
+            <!-- Bölme Butonu -->
+            <button id="div-btn">Bölme</button>
+            <!-- Temizle Butonu -->
+            <button id="clear-btn">Sil</button>
+        </div>
+
+        <!-- Sonuç -->
+        <div class="result-area">
+            <strong>Toplam:</strong>
+            <span id="result"></span>
+        </div>
+
+    </div>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>

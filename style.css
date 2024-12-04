@@ -1,0 +1,87 @@
+/*Yıldız Etiketi Bütün HTML'i Etkiler*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: darkslategray;
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: whitesmoke;
+  margin: 50px auto; /* İçeriği Ortalar */
+  width: 300px;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.heading {
+  color: lightcoral;
+  text-align: center;
+}
+
+/*Display Block İle Etiketleri Blok Olarak Değiştirir*/
+label {
+  color: lightslategrey;
+  margin-bottom: 10px;
+  font-weight: bold;
+  display: block;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.input-area {
+  margin-bottom: 15px;
+}
+
+#clear-btn {
+  display: flex;
+  margin-left: auto;
+}
+
+#sum-btn,
+#sub-btn,
+#mul-btn,
+#div-btn,
+#clear-btn {
+  background-color: lightslategrey;
+  color: white;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  border: none;
+}
+
+#sum-btn:hover,
+#sub-btn:hover,
+#mul-btn:hover,
+#div-btn:hover,
+#clear-btn:hover {
+  background-color: lightcoral;
+}
+
+#result {
+  color: lightslategrey;
+  font-weight: bold;
+}
+
+.result-area {
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.result-area strong {
+  color: lightcoral;
+  font-size: 20px;
+}
